@@ -1,7 +1,7 @@
 <script setup>
 
 defineProps({
-  skills: Object,
+    skills: Object,
 });
 
 </script>

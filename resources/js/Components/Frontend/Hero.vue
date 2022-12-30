@@ -82,7 +82,7 @@
                 >
                 Follow me on
                 </h5>
-                <div class="flex items-center mb-6">
+                <div class="flex items-center mb-6 mt-3">
                 <a
                     class="
                     w-12
@@ -202,12 +202,12 @@
                 </div>
             </div>
             </div>
-            <div class="flex flex-1 justify-end items-center h-full mt-8 md:mt-0">
-            <img
-                class="rounded-lg w-90 h-90"
-                src="/img/hero3.png"
-                alt="Hero"
-            />
+            <div class="flex flex-1 justify-center items-center h-full mt-8 md:mt-5">
+                <img
+                    class="rounded-lg w-120 h-90"
+                    src="/img/hero3.png"
+                    alt="Hero"
+                />
             </div>
         </div>
         </div>

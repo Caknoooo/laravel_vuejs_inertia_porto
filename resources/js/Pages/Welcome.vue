@@ -5,7 +5,11 @@ import FrontendLayout from "@/Layouts/Frontend.vue";
 import Hero from '@/Components/Frontend/Hero.vue'
 import Promote from '@/Components/Frontend/Promote.vue';
 import About from '@/Components/Frontend/About.vue';
+import Skills from '@/Components/Frontend/Skills.vue';
 
+defineProps({
+    skills: Object,
+});
 </script>
 
 <template>
@@ -21,6 +25,8 @@ import About from '@/Components/Frontend/About.vue';
         <!-- About -->
         <About />
 
+        <!-- Skill -->
+        <Skills :skills="skills" />
     </FrontendLayout>
 
 </template>

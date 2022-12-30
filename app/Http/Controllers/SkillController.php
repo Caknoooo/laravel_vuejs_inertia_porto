@@ -97,7 +97,7 @@ class SkillController extends Controller
             'image' => $image
         ]);
 
-        return Redirect::route('skills.index')->with('message', 'Skill Updated successfully.');
+        return Redirect::route('skills.index')->with('message', 'Skill Updated Successfully.');
     }
 
     /**

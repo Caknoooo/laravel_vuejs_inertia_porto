@@ -16,6 +16,7 @@
                                 class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
                                     <option v-for="skill in skills" :key="skill.id" :value="skill.id">{{ skill.name }}</option>
                                 </select>
+                                <InputError class="mt-2" :message="$page.props.errors.skill_id" />
                             </div>
                             <div>
                                 <InputLabel for="name" value="Name" />
@@ -30,7 +31,7 @@
                                     autocomplete="name"
                                 />
 
-                                <InputError class="mt-2" :message="form.errors.name" />
+                                <InputError class="mt-2" :message="$page.props.errors.name" />
                             </div>
 
                             <div>
@@ -43,7 +44,7 @@
                                     v-model="form.project_url"
                                 />
 
-                                <InputError class="mt-2" :message="form.errors.project_url" />
+                                <InputError class="mt-2" :message="$page.props.errors.project_url" />
                             </div>
 
 
@@ -57,7 +58,7 @@
                                     @input="form.image = $event.target.files[0]"
                                 />
 
-                                <InputError class="mt-2" :message="form.errors.image" />
+                                <InputError class="mt-2" :message="$page.props.errors.image" />
                             </div>
 
                             <div class="flex items-center justify-end mt-4">

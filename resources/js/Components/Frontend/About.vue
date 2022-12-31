@@ -14,8 +14,8 @@
         >
             <div class="flex flex-col xl:flex-row gap-24">
                 <img
-                class="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
-                src="/img/about.jpeg"
+                class="object-cover h-80 w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
+                src="/img/hero2.jpeg"
                 alt="about"
                 />
                 <div
@@ -30,16 +30,16 @@
                         <h2 class="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
                             About Me
                         </h2>
-                        <P class="mb-4 text-accent">Freelance frontend Web developer</P>
+                        <P class="mb-2 text-accent">Junior of Software Engineering</P>
                             <hr class="mb-8 opacity-90 dark:opacity-5" />
-                        <p class="mb-8">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                            earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                            neque harum velit molestiae dignissimos distinctio dolorum nisi
-                            labore culpa nihil. <br />
+                        <p class="mb-4">
+                            Hello, my name is M Naufal Badruttamam, I come from Surabaya, Indonesia. I learned programming in early September 2021, I'm a junior in programming, especially in 
+                            the field of Software Engineer and Backend Developer. <br />
                             <br />
-                            Qui doloremque quod sit accusantium unde totam inventore
-                            cupiditate ratione esse maxime eum recusandae ducimus.
+                            “Stay away from those people who try to disparage your ambitions. Small minds will always do that, 
+                            but great minds will give you a feeling that you can become great too.” — Mark Twain
+                            <br /> <br />
+                            
                         </p>
                     </div>
                     

@@ -25,13 +25,13 @@ onMounted(() => {
 
 <template>
 
-<nav class="w-full fixed z-20 bg-light-primary border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-dark-primary" :class="{
+<nav class="w-full sticky top-0 z-50 bg-light-primary border-gray-200 px-2 sm:px-4 py-1 rounded dark:bg-dark-primary" :class="{
     'bg-light-primary dark:bg-dark-primary' : scrollBg,
     'bg-white dark:bg-slate-800': !scrollBg
 }">                   
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="https://flowbite.com/" class="flex items-center">
-            <img src="" class="h-6 mr-3 sm:h-9" alt="Logo" />
+        <a href="#home" class="flex items-center">
+            <img src="/img/logo2.jpg" class="h-6 mr-3 sm:h-9 rounded-full" alt="Logo" />
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">My Blog</span>
         </a>
         <button @click="showMobileMenu = !showMobileMenu" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -41,7 +41,7 @@ onMounted(() => {
         <div class="w-full md:block md:w-auto" :class="{hidden: showMobileMenu}" id="navbar-default">
             <ul class="flex flex-col p-4 mt-4 border border-light-tail-500 dark:border-dark-navy-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:font-medium md:border-0">
                 <li v-for="(navigation, index) in navigations" :key="index">
-                    <a :href="navigation.href" class="block py-2 pl-3 pr-4 text-light-tail-500 dark:bg-dark-navy-100 rounded md:bg-transparent dark:text-dark-navy-100 md:p-2 hover:text-light-tail-100 dark:hover:text-white " aria-current="page">
+                    <a :href="navigation.href" class="block py-2 pl-3 pr-4 text-light-tail-500  rounded md:bg-transparent dark:text-dark-navy-100 md:p-2 hover:text-light-tail-100 dark:hover:text-white " aria-current="page">
                         {{ navigation.name }}
                     </a>
                 </li>

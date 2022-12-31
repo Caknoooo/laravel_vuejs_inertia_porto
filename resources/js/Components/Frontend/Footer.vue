@@ -7,7 +7,7 @@
         <div class="container mx-auto">
             <div class="flex flex-col md:flex-row space-y-6 lg:space-y-0 items-center justify-between">
                 <div class="flex space-x-6 items-center justify-center">
-                    <img class="h-8 w-auto" src="https://flowbite.com/docs/images/logo.svg" alt="Test Logo"  />
+                    <img class="h-8 w-auto rounded-full" src="/img/logo2.jpg" alt="Cakno Logo"  />
                 </div>
                 <p class="text-paragraph opacity-80 text-[15px]">
                     &copy; 2022 Cakno Blog All Right Reserved.

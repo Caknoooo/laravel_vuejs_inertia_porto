@@ -36,7 +36,7 @@ defineProps({
         <Portofolio :skills="skills" :projects="projects" />
 
         <!-- Services -->
-        <Services />
+        <!-- <Services /> -->
 
         <!-- Contact -->
         <ContactMe />

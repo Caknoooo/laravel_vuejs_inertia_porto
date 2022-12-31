@@ -37,3 +37,10 @@ Therefore, I suggest to follow the steps that I provide:
 
 - **[Laravel](https://laravel.com/)**
 - **[Stackoverflow](https://stackoverflow.com/)**
+- **[Tailwind Components](https://tailwindcomponents.com/)**
+- **[Tailwind UI](https://tailwingui.com/)**
+- **[Flow Bite](https://flowbite.com/)**
+- **[Daisyui](https://daisyui.com/)**
+- **[Hero Icons](https://heroicons.com/)**
+- **[Mail Trap](https://mailtrap.io/)**
+- **[Motion Vueuse](https://motion.vueuse.org/)**
